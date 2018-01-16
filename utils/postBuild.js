@@ -24,7 +24,7 @@ try {
     throw new Error('Could not find .cache file')
   }
 
-  if (cacheFilePath.length > 1) {
+  if (cacheFilePaths.length > 1) {
     throw new Error('More than one possible .cache file detected')
   }
 
